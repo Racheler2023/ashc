@@ -1,4 +1,4 @@
-# Average  Sensitivity of Hierarchical   $k$\-median Clustering
+# Average  Sensitivity of Hierarchical   $k$\-Median Clustering
 
 ```markdown
 A library for computing the average sensitivity of hierarchical $k$-median clustering and other hierarchical clustering algorithms.
