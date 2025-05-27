@@ -8,7 +8,7 @@ python aver_sen_para.py
 python special_example_1.py
 ```
 
-- `rhst.py`: Implements the RHST algorithm introduced in the ICML 2025 paper.
+- `rhst.py`: Implements the RHST algorithm introduced in the paper.
 - `cost_mul_k.py`: Compares the computational cost of various algorithms in $k$-median clustering.
 - `greedy.py`: Contains the CLINSS (Clustered Greedy $k$-Median) algorithm.
 - `exponential.py`: Implements our proposed exponential algorithm.
