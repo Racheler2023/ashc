@@ -1,14 +1,27 @@
-- `rhst.py` implements the RHST introduced in the paper.
-- `cost_mul_k.py` compares the computational cost of various algorithms in k-median clustering.
-- `greedy.py` contains the CLINSS (Clustered Greedy k-Median) algorithm.
-- `exponential.py` is the implementation of our proposed algorithm.
+# Average  Sensitivity of Hierarchical   $k$ \-median Clustering
 
-- `real_aver_sen.py` compares the average sensitivity of our algorithm with that of other algorithms.
-- `aver_sen_para.py` is a parallelized version of `real_aver_sen.py` and is much faster.
-- `sensitivity.py` contains our method for calculating the cluster symmetric difference.
-- `single_linkage_well_cluster_test.py` is the code in the appendix for detecting that the real data set has a good clustering structure
-- The three experimental scripts on synthetic datasets are:
-  - `special_example_1.py`: Focuses on the single-linkage clustering method.
+```markdown
+A library for computing the average sensitivity of hierarchical $k$-median clustering and other hierarchical clustering algorithms.
+
+## Example usage
+python aver_sen_para.py
+python special_example_1.py
+```
+
+- `rhst.py`: Implements the RHST algorithm introduced in the ICML 2025 paper.
+- `cost_mul_k.py`: Compares the computational cost of various algorithms in $k$-median clustering.
+- `greedy.py`: Contains the CLINSS (Clustered Greedy $k$-Median) algorithm.
+- `exponential.py`: Implements our proposed exponential algorithm.
+- `real_aver_sen.py`: Compares the average sensitivity of our algorithm with that of other algorithms.
+- `aver_sen_para.py`: Parallelized version of `real_aver_sen.py`, significantly faster.
+- `sensitivity.py`: Calculates the cluster symmetric difference, our measure for average sensitivity.
+- `single_linkage_well_cluster_test.py`: Validates that the real dataset has a good clustering structure (appendix).
+- Experimental scripts on synthetic datasets:
+  - `special_example_1.py`: Focuses on single-linkage clustering.
   - `special_example_2.py`: Implements the CLINSS algorithm.
-  - `sys_aver_sen.py`: Evaluates the performance of our algorithm under different \(\epsilon\) settings
+  - `sys_aver_sen.py`: Evaluates performance under different $\epsilon$ values.
+
+## Reference
+
+- Shijie Li, Weiqiang He, Ruobing Bai, Pan Peng. *Average Sensitivity of Hierarchical $k$-Median Clustering*. In Proceedings of the 42nd International Conference on Machine Learning (ICML 2025).
 
